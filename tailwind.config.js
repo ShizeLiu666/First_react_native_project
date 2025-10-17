@@ -43,7 +43,6 @@ module.exports = {
         quicksand: ["Quicksand-Regular", "sans-serif"],          // Usage: font-quicksand
         "quicksand-bold": ["Quicksand-Bold", "sans-serif"],      // Usage: font-quicksand-bold
         "quicksand-semibold": ["Quicksand-SemiBold", "sans-serif"], // Usage: font-quicksand-semibold
-        "quicksand-light": ["Quicksand-Light", "sans-serif"],    // Usage: font-quicksand-light
         "quicksand-medium": ["Quicksand-Medium", "sans-serif"],  // Usage: font-quicksand-medium
       },
     },
