@@ -26,4 +26,37 @@ export default function Index() {
             >
               <View className="h-full w-1/2">
                 <Image
-                  source={it
+                  source={item.image}
+                  style={{ width: "100%", height: "100%"}}
+                  contentFit="contain"
+                />
+              </View>
+              <View className={cn("offer-card__info", isEven ? "pl-10" : "pr-10")}>
+                <Text className="h1-bold text-white leading-tight">{item.title}</Text>
+                <RNImage 
+                  source={images.arrowRight} 
+                  style={{ width: 40, height: 40, tintColor: "white" }} 
+                  resizeMode="contain"
+                />
+              </View>
+            </Pressable>
+          );
+        }}
+        ListHeaderComponent={() => {
+          return (
+            <View className="flex-between flex-row w-full my-5">
+            <View className="flex-start">
+              <Text className="small-bold text-primary">DELIVER TO</Text>
+              <TouchableOpacity className="flex-row gap-x-1 mt-0.5 ">
+                <Text className="paragraph-bold text-dark-100">Adelaide</Text>
+                <RNImage source={images.arrowDown} className="size-3" resizeMode="contain"/>
+              </TouchableOpacity>
+            </View>
+            <CartButton/>
+          </View>
+          );
+        }}
+      />
+    </SafeAreaView>
+  );
+}

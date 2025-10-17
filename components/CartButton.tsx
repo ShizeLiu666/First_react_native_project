@@ -16,4 +16,8 @@ const CartButton = () => {
           </Text>
         </View>
       )}
-    </Toucha
+    </TouchableOpacity>
+  );
+};
+
+export default CartButton;
