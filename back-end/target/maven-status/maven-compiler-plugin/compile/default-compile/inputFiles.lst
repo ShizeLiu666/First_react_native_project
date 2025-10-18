@@ -1,0 +1,15 @@
+/Users/liushize/Desktop/fast_food/back-end/src/main/java/com/fastfood/backend/FastFoodApplication.java
+/Users/liushize/Desktop/fast_food/back-end/src/main/java/com/fastfood/backend/config/JwtAuthenticationFilter.java
+/Users/liushize/Desktop/fast_food/back-end/src/main/java/com/fastfood/backend/config/SecurityConfig.java
+/Users/liushize/Desktop/fast_food/back-end/src/main/java/com/fastfood/backend/config/SwaggerConfig.java
+/Users/liushize/Desktop/fast_food/back-end/src/main/java/com/fastfood/backend/config/WebConfig.java
+/Users/liushize/Desktop/fast_food/back-end/src/main/java/com/fastfood/backend/controller/UserController.java
+/Users/liushize/Desktop/fast_food/back-end/src/main/java/com/fastfood/backend/dao/User.java
+/Users/liushize/Desktop/fast_food/back-end/src/main/java/com/fastfood/backend/dao/UserRepository.java
+/Users/liushize/Desktop/fast_food/back-end/src/main/java/com/fastfood/backend/dto/UserDTO.java
+/Users/liushize/Desktop/fast_food/back-end/src/main/java/com/fastfood/backend/global/GlobalExceptionHandler.java
+/Users/liushize/Desktop/fast_food/back-end/src/main/java/com/fastfood/backend/request/LoginRequest.java
+/Users/liushize/Desktop/fast_food/back-end/src/main/java/com/fastfood/backend/request/RegisterRequest.java
+/Users/liushize/Desktop/fast_food/back-end/src/main/java/com/fastfood/backend/response/Response.java
+/Users/liushize/Desktop/fast_food/back-end/src/main/java/com/fastfood/backend/service/UserService.java
+/Users/liushize/Desktop/fast_food/back-end/src/main/java/com/fastfood/backend/util/JwtUtil.java
