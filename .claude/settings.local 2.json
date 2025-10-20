@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mysql --version)",
+      "Bash(brew list)",
+      "Bash(brew install mysql)",
+      "Bash(brew services start mysql)",
+      "Bash(mysql -u root -e \"CREATE DATABASE IF NOT EXISTS fastfood CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;\")",
+      "Bash(mysql -u root -e \"SHOW DATABASES LIKE ''fastfood'';\")",
+      "Bash(mvn clean compile)",
+      "Bash(brew install maven)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
