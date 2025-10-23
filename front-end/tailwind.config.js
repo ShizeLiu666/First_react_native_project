@@ -1,10 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  // Content paths: Tell Tailwind where to look for class names
-  // It scans these files and only includes the styles you actually use
   content: ["./app/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
-  
-  // Presets: Load NativeWind preset for React Native compatibility
   presets: [require("nativewind/preset")],
   
   theme: {
